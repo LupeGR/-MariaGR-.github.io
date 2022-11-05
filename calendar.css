@@ -1,0 +1,73 @@
+/*
+Author: Maria G. Rodriguez
+Date: November 1, 2022
+Filename: calendar.css
+*/
+@charset "utf-8"; 
+ html{
+	 background-color: rgb(36, 37, 38);
+ }
+ 
+body{
+	color: rgb(91,91,91)
+	background-color: ivory;
+	display:block;
+}
+
+nav > ul{
+	line-height: 2em;
+	list-style-type: none;
+	padding-left: 15px;
+	margin-top:5px;
+	vertical-align: middle;
+}
+aside{
+	display: table-cell;
+	background-color: white;
+	float: left;
+	padding:1.5em;
+	border: 3px solid black;
+}
+
+table{
+	background: white;
+	border: 3px solid black;
+	border-collapse: collapse;
+	font-size: .95em;
+	width:80%;
+	text-align:center;
+	}
+	
+table.Month thead{
+	text-align:center;
+	background-color: rgb(217,217,214);
+	height: 50px;
+	
+}
+
+td{
+	border:1px solid rgb(217,217,214);
+	height: 80px;
+}
+
+p#title{
+	border: none;
+	background-color:rgb(36,37,38);
+	text-align:center;
+	width:100%;
+	height:25px;
+	font-size: 2em;
+	color: white;
+}
+
+tr#wkdays{
+	background-color: rgb(168,169,173)
+}
+
+footer{
+	font-size: .75em;
+	clear:both;
+	background-color: rgb(217,217,214);
+	text-align: center;
+	
+}
